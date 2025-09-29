@@ -7,7 +7,7 @@ import sqlite3, os
 from datetime import datetime
 
 KV = """
-#:import MDSeparator kivymd.uix.separator.MDSeparator
+#:import MDDivider kivymd.uix.divider.MDDivider
 
 <Header@MDLabel>:
     halign: "center"
@@ -319,5 +319,6 @@ class BotoneraApp(MDApp):
 
 if __name__ == "__main__":
     BotoneraApp().run()
+
 
 
