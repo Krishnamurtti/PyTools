@@ -3,7 +3,6 @@ from kivy.lang import Builder
 from kivymd.app import MDApp
 from kivy.clock import Clock
 from kivy.utils import platform
-from kivymd.uix.separator import MDSeparator
 import sqlite3, os
 from datetime import datetime
 
@@ -320,4 +319,5 @@ class BotoneraApp(MDApp):
 
 if __name__ == "__main__":
     BotoneraApp().run()
+
 
